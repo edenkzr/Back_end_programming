@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.Set;
 
 @Entity
-@Table(name = "country")
+@Table(name = "countries")
 @Getter
 @Setter
 public class Country {

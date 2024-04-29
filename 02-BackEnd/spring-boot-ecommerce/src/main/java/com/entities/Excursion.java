@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.Set;
 
 @Entity
-@Table(name = "excursion")
+@Table(name = "excursions")
 @Getter
 @Setter
 public class Excursion {
