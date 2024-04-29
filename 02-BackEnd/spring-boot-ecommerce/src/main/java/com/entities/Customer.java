@@ -16,13 +16,13 @@ public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+    @Column(name = "customer_id")
     private Long id;
 
-    @Column(name = "first_name")
+    @Column(name = "customer_first_name")
     private String firstName;
 
-    @Column(name = "last_name")
+    @Column(name = "customer_last_name")
     private String lastName;
 
     @Column(name = "address")
@@ -42,8 +42,10 @@ public class Customer {
     @UpdateTimestamp
     private Date last_update;
 
-    @Column(name = "division")
-    private Long division;
+    @ManyToOne
+    @JoinColumn(name = "division_id")
+    @Column(name = "division_id")
+    private Division division;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "customer")
     private Set<Cart> carts;

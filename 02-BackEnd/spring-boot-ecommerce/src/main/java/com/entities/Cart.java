@@ -18,7 +18,7 @@ public class Cart {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+    @Column(name = "cart_id")
     private Long id;
 
     @Column(name = "order_tracking_number")
@@ -31,6 +31,7 @@ public class Cart {
     private int party_size;
 
     @Column(name = "status")
+    @Enumerated(EnumType.STRING)
     private StatusType status;
 
     @Column(name = "created_date")
@@ -43,9 +44,10 @@ public class Cart {
 
     @ManyToOne
     @JoinColumn(name = "customer_id", nullable = false)
-    @Column(name = "customer")
+    @Column(name = "customer_id")
     private Customer customer;
 
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "cart")
     private Set<CartItem> cartItem;
 
     public Cart() {
