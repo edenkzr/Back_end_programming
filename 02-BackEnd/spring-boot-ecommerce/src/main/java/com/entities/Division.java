@@ -41,7 +41,7 @@ public class Division {
         this.country = country;
     }
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "division_id")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "division")
     private Set<Customer> customers;
 
     public Division() {

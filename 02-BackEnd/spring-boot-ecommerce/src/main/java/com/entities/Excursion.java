@@ -40,7 +40,6 @@ public class Excursion {
 
     @ManyToOne
     @JoinColumn(name = "vacation_id", nullable = false)
-    @Column(name = "vacation_id")
     private Vacation vacation;
 
     @ManyToMany(mappedBy = "excursions")

@@ -44,7 +44,6 @@ public class Cart {
 
     @ManyToOne
     @JoinColumn(name = "customer_id", nullable = false)
-    @Column(name = "customer_id")
     private Customer customer;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "cart")

@@ -22,18 +22,16 @@ public class CartItem {
 
     @ManyToOne
     @JoinColumn(name = "vacation_id")
-    @Column(name = "vacation_id")
     private Vacation vacation;
 
     @ManyToMany
     @JoinTable(name = "excursion_cartitem",
-        joinColumns = @JoinColumn("cart_item_id"),
-            inverseJoinColumns = @JoinColumn("excursion_id"))
+        joinColumns = @JoinColumn(name = "cart_item_id"),
+            inverseJoinColumns = @JoinColumn(name = "excursion_id"))
     private Set<Excursion> excursions;
 
     @ManyToOne
     @JoinColumn(name = "cart_id", nullable = false)
-    @Column(name = "cart_id")
     private Cart cart;
 
     @Column(name = "create_date")
