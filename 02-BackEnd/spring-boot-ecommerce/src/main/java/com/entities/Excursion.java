@@ -24,7 +24,7 @@ public class Excursion {
     @Column(name = "excursion_title")
     private String excursion_title;
 
-    @Column(name = "excursion_title")
+    @Column(name = "excursion_price")
     private BigDecimal excursion_price;
 
     @Column(name = "image_url")
