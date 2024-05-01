@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0306ef-0ea5-4798-a0b5-5eeb679b1e2f" name="Changes" comment="created repositories for Task E">
+    <list default="true" id="0f0306ef-0ea5-4798-a0b5-5eeb679b1e2f" name="Changes" comment="fixed bugs in mapping and division drop down not working.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Division.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -74,6 +79,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "59f9c2e7566ecb837290fe0e9a82c58d",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -111,7 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1714149507190</updated>
       <workItem from="1714149508706" duration="9448000" />
-      <workItem from="1714329965514" duration="24945000" />
+      <workItem from="1714329965514" duration="19090000" />
+      <workItem from="1714602082823" duration="1469000" />
     </task>
     <task id="LOCAL-00001" summary="Copy pasted configs and application.properties, added placeholders so that git keeps track of the added packages for Task C">
       <created>1714150817494</created>
@@ -136,15 +143,7 @@
       <option name="project" value="LOCAL" />
       <updated>1714417707613</updated>
     </task>
-    <task id="LOCAL-00004" summary="created repositories for Task E">
-      <option name="closed" value="true" />
-      <created>1714419993933</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1714419993933</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +164,7 @@
     <MESSAGE value="Copy pasted configs and application.properties, added placeholders so that git keeps track of the added packages for Task C" />
     <MESSAGE value="created classes for entities package" />
     <MESSAGE value="defined classes and enum type with relationship mapping for Task D" />
-    <MESSAGE value="created repositories for Task E" />
-    <option name="LAST_COMMIT_MESSAGE" value="created repositories for Task E" />
+    <MESSAGE value="fixed bugs in mapping and division drop down not working." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs in mapping and division drop down not working." />
   </component>
 </project>

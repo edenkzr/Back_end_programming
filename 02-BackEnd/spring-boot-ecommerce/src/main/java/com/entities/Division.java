@@ -32,12 +32,13 @@ public class Division {
     private Date last_update;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "country", nullable = false, insertable = false, updatable = false)
+    @JoinColumn(name = "country_id", nullable = false, insertable = false, updatable = false)
     private Country country;
 
-    @Column(name = "country")
+    @Column(name = "country_id")
     private Long country_id;
     public void setCountry(Country country) {
+        setCountry_id(country.getId());
         this.country = country;
     }
 
