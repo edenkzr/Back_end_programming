@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0306ef-0ea5-4798-a0b5-5eeb679b1e2f" name="Changes" comment="fixed bugs in mapping and division drop down not working.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dto/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dto/PurchaseResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -118,7 +117,7 @@
       <updated>1714149507190</updated>
       <workItem from="1714149508706" duration="9448000" />
       <workItem from="1714329965514" duration="19090000" />
-      <workItem from="1714602082823" duration="1469000" />
+      <workItem from="1714602082823" duration="2723000" />
     </task>
     <task id="LOCAL-00001" summary="Copy pasted configs and application.properties, added placeholders so that git keeps track of the added packages for Task C">
       <created>1714150817494</created>
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714417707613</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed bugs in mapping and division drop down not working.">
+      <created>1714603571393</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714603571393</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
