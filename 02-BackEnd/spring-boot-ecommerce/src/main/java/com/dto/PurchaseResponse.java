@@ -8,4 +8,7 @@ import lombok.Setter;
 public class PurchaseResponse {
 
     private String orderTrackingNumber;
+
+    public PurchaseResponse(String orderTrackingNumber) {
+    }
 }
