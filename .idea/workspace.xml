@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0306ef-0ea5-4798-a0b5-5eeb679b1e2f" name="Changes" comment="created checkoutService and Implementation, added add methods to the necessary entities for Task F, fixed bugs with repositories.">
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/placeholder.txt" beforeDir="false" />
+    <list default="true" id="0f0306ef-0ea5-4798-a0b5-5eeb679b1e2f" name="Changes" comment="added validation to the customer fields that require input for Task G">
+      <change afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/controllers/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/controllers/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dto/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/config/dto/Purchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dto/PurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/config/dto/PurchaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +122,7 @@
       <updated>1714149507190</updated>
       <workItem from="1714149508706" duration="9448000" />
       <workItem from="1714329965514" duration="19090000" />
-      <workItem from="1714602082823" duration="16102000" />
+      <workItem from="1714602082823" duration="17809000" />
     </task>
     <task id="LOCAL-00001" summary="Copy pasted configs and application.properties, added placeholders so that git keeps track of the added packages for Task C">
       <created>1714150817494</created>
@@ -163,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714631654804</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added validation to the customer fields that require input for Task G">
+      <created>1714632407707</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714632407707</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +199,7 @@
     <MESSAGE value="fixed bugs in mapping and division drop down not working." />
     <MESSAGE value="created dto purchase and purchaseResponse for Task F" />
     <MESSAGE value="created checkoutService and Implementation, added add methods to the necessary entities for Task F, fixed bugs with repositories." />
-    <option name="LAST_COMMIT_MESSAGE" value="created checkoutService and Implementation, added add methods to the necessary entities for Task F, fixed bugs with repositories." />
+    <MESSAGE value="added validation to the customer fields that require input for Task G" />
+    <option name="LAST_COMMIT_MESSAGE" value="added validation to the customer fields that require input for Task G" />
   </component>
 </project>

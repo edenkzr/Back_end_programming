@@ -1,7 +1,7 @@
 package com.services;
 
-import com.dto.Purchase;
-import com.dto.PurchaseResponse;
+import com.config.dto.Purchase;
+import com.config.dto.PurchaseResponse;
 
 public interface CheckoutService {
 

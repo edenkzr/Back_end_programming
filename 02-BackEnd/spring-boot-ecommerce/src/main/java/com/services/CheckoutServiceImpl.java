@@ -2,8 +2,8 @@ package com.services;
 
 import com.dao.CartRepository;
 import com.dao.CustomerRepository;
-import com.dto.Purchase;
-import com.dto.PurchaseResponse;
+import com.config.dto.Purchase;
+import com.config.dto.PurchaseResponse;
 import com.entities.Cart;
 import com.entities.CartItem;
 import com.entities.Customer;

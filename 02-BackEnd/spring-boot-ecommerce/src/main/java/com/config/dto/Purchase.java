@@ -1,4 +1,4 @@
-package com.dto;
+package com.config.dto;
 
 import com.entities.Cart;
 import com.entities.CartItem;
