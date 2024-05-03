@@ -4,14 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0306ef-0ea5-4798-a0b5-5eeb679b1e2f" name="Changes" comment="added validation to the customer fields that require input for Task G">
-      <change afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/controllers/CheckoutController.java" afterDir="false" />
+    <list default="true" id="0f0306ef-0ea5-4798-a0b5-5eeb679b1e2f" name="Changes" comment="created CheckoutController for Task H">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/controllers/placeholder.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dto/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/config/dto/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dto/PurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/config/dto/PurchaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/SpringBootEcommerceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/SpringBootEcommerceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/config/RestDataConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/config/RestDataConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/config/dto/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/dto/Purchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/config/dto/PurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/dto/PurchaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/controllers/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/controllers/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dao/CartItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/dao/CartItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dao/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/dao/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dao/CountryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/dao/CountryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dao/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/dao/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dao/DivisionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/dao/DivisionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dao/ExcursionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/dao/ExcursionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/dao/VacationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/dao/VacationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Excursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Excursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/StatusType.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/StatusType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/entities/Vacation.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Vacation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/services/CheckoutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/services/CheckoutServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="salvage_branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +71,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -63,30 +83,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "working__branch",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/d288-back-end-programming2/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "59f9c2e7566ecb837290fe0e9a82c58d",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;working__branch&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/d288-back-end-programming2/02-BackEnd/spring-boot-ecommerce/src/main/java/com/services&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;59f9c2e7566ecb837290fe0e9a82c58d&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\d288-back-end-programming2\02-BackEnd\spring-boot-ecommerce\src\main\java\com\services" />
@@ -98,7 +118,7 @@
   <component name="RunManager">
     <configuration name="SpringBootEcommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-ecommerce" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringBootEcommerceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.BEP.commerce.SpringBootEcommerceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,7 +142,9 @@
       <updated>1714149507190</updated>
       <workItem from="1714149508706" duration="9448000" />
       <workItem from="1714329965514" duration="19090000" />
-      <workItem from="1714602082823" duration="17809000" />
+      <workItem from="1714602082823" duration="18079000" />
+      <workItem from="1714712438087" duration="7110000" />
+      <workItem from="1714755348634" duration="10670000" />
     </task>
     <task id="LOCAL-00001" summary="Copy pasted configs and application.properties, added placeholders so that git keeps track of the added packages for Task C">
       <created>1714150817494</created>
@@ -175,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714632407707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created CheckoutController for Task H">
+      <created>1714634309701</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714634309701</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +229,7 @@
     <MESSAGE value="created dto purchase and purchaseResponse for Task F" />
     <MESSAGE value="created checkoutService and Implementation, added add methods to the necessary entities for Task F, fixed bugs with repositories." />
     <MESSAGE value="added validation to the customer fields that require input for Task G" />
-    <option name="LAST_COMMIT_MESSAGE" value="added validation to the customer fields that require input for Task G" />
+    <MESSAGE value="created CheckoutController for Task H" />
+    <option name="LAST_COMMIT_MESSAGE" value="created CheckoutController for Task H" />
   </component>
 </project>

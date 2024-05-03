@@ -1,4 +1,4 @@
-package com.entities;
+package com.BEP.commerce.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -35,7 +35,7 @@ public class Cart {
     @Enumerated(EnumType.STRING)
     private StatusType status;
 
-    @Column(name = "created_date")
+    @Column(name = "create_date")
     @CreationTimestamp
     private Date created_date;
 

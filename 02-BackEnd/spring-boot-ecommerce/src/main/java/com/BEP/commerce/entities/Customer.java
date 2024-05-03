@@ -1,4 +1,4 @@
-package com.entities;
+package com.BEP.commerce.entities;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -44,7 +44,7 @@ public class Customer {
     private Date last_update;
 
     @ManyToOne
-    @JoinColumn(name = "division_id", nullable = false)
+    @JoinColumn(name = "division_id")
     private Division division;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "customer")

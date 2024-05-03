@@ -1,6 +1,6 @@
-package com.config;
+package com.BEP.commerce.config;
 
-import com.entities.*;
+import com.BEP.commerce.entities.*;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;

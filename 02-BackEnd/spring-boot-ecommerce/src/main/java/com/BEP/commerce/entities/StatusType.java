@@ -1,4 +1,4 @@
-package com.entities;
+package com.BEP.commerce.entities;
 
 public enum StatusType {
     pending,

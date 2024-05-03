@@ -1,18 +1,18 @@
-package com.controllers;
+package com.BEP.commerce.controllers;
 
-import com.config.dto.Purchase;
-import com.config.dto.PurchaseResponse;
-import com.services.CheckoutService;
+import com.BEP.commerce.dto.Purchase;
+import com.BEP.commerce.dto.PurchaseResponse;
+import com.BEP.commerce.services.CheckoutService;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/api/checkout")
 public class CheckoutController {
-
     private CheckoutService checkoutService;
 
     public CheckoutController(CheckoutService checkoutService){
+
         this.checkoutService = checkoutService;
     }
 
