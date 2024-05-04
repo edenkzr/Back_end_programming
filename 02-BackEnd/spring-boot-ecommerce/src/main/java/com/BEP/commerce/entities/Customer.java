@@ -63,4 +63,13 @@ public class Customer {
 
     public Customer() {
     }
+
+    public Customer(String firstName, String lastName, String address, String postal_code, String phone, Division division) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
+        this.postal_code = postal_code;
+        this.phone = phone;
+        this.division = division;
+    }
 }
