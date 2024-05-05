@@ -21,29 +21,34 @@ public class BootStrapData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Division arizona = new Division();
-        arizona.setId(2L);
+        //check repository
+        if (customerRepository.count() < 6) {
 
-        Customer barry = new Customer("Barry", "Allen", "Central City", "33028", "3056035190", arizona);
-        Customer bruce = new Customer("Bruce", "Wayne", "Gotham", "33154", "7865478998", arizona);
-        Customer clark = new Customer("Clark", "Kent", "Metropolis", "14234", "9546771829", arizona);
-        Customer oliver = new Customer("Oliver", "Queen", "Star City", "45271", "3056062913", arizona);
-        Customer diana = new Customer("Diana", "Prince", "Themyscira", "31787", "3056200748", arizona);
+            //create division
+            Division arizona = new Division();
+            arizona.setId(2L);
 
-        arizona.getCustomers().add(barry);
-        arizona.getCustomers().add(bruce);
-        arizona.getCustomers().add(clark);
-        arizona.getCustomers().add(oliver);
-        arizona.getCustomers().add(diana);
+            //create customers
+            Customer barry = new Customer("Barry", "Allen", "Central City", "33028", "3056035190", arizona);
+            Customer bruce = new Customer("Bruce", "Wayne", "Gotham", "33154", "7865478998", arizona);
+            Customer clark = new Customer("Clark", "Kent", "Metropolis", "14234", "9546771829", arizona);
+            Customer oliver = new Customer("Oliver", "Queen", "Star City", "45271", "3056062913", arizona);
+            Customer diana = new Customer("Diana", "Prince", "Themyscira", "31787", "3056200748", arizona);
 
-        customerRepository.save(barry);
-        customerRepository.save(bruce);
-        customerRepository.save(clark);
-        customerRepository.save(oliver);
-        customerRepository.save(diana);
+            //add customers to division
+            arizona.getCustomers().add(barry);
+            arizona.getCustomers().add(bruce);
+            arizona.getCustomers().add(clark);
+            arizona.getCustomers().add(oliver);
+            arizona.getCustomers().add(diana);
 
+            //save customers
+            customerRepository.save(barry);
+            customerRepository.save(bruce);
+            customerRepository.save(clark);
+            customerRepository.save(oliver);
+            customerRepository.save(diana);
 
-
-
+        }
     }
 }

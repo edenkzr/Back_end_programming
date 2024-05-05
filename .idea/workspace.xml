@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0306ef-0ea5-4798-a0b5-5eeb679b1e2f" name="Changes" comment="created CheckoutController for Task H and fixed bugs  that in mapping that caused issues in displaying the tracking number">
-      <change afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/bootstrap/BootStrapData.java" afterDir="false" />
+    <list default="true" id="0f0306ef-0ea5-4798-a0b5-5eeb679b1e2f" name="Changes" comment="created bootstrap package and bootStrapData class while initializing 5 sample customers.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/entities/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/bootstrap/BootStrapData.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-BackEnd/spring-boot-ecommerce/src/main/java/com/BEP/commerce/bootstrap/BootStrapData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,7 @@
       <workItem from="1714602082823" duration="18079000" />
       <workItem from="1714712438087" duration="7110000" />
       <workItem from="1714755348634" duration="11487000" />
-      <workItem from="1714798141608" duration="5941000" />
+      <workItem from="1714798141608" duration="8408000" />
     </task>
     <task id="LOCAL-00001" summary="Copy pasted configs and application.properties, added placeholders so that git keeps track of the added packages for Task C">
       <created>1714150817494</created>
@@ -192,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714766644964</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="created bootstrap package and bootStrapData class while initializing 5 sample customers.">
+      <created>1714807748570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714807748570</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +224,7 @@
     <MESSAGE value="added validation to the customer fields that require input for Task G" />
     <MESSAGE value="created CheckoutController for Task H" />
     <MESSAGE value="created CheckoutController for Task H and fixed bugs  that in mapping that caused issues in displaying the tracking number" />
-    <option name="LAST_COMMIT_MESSAGE" value="created CheckoutController for Task H and fixed bugs  that in mapping that caused issues in displaying the tracking number" />
+    <MESSAGE value="created bootstrap package and bootStrapData class while initializing 5 sample customers." />
+    <option name="LAST_COMMIT_MESSAGE" value="created bootstrap package and bootStrapData class while initializing 5 sample customers." />
   </component>
 </project>
