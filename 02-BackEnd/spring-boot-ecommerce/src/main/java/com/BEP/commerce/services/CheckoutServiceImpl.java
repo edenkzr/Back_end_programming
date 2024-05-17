@@ -61,7 +61,7 @@ public class CheckoutServiceImpl implements CheckoutService{
 
         //save to database
         customerRepository.save(customer);
-        cartRepository.save(cart);
+        //cartRepository.save(cart); <-- this was the bug causing the duplicates
 
         //return a response
         return new PurchaseResponse(orderTrackingNumber);
